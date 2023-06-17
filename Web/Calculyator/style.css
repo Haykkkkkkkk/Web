@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./math.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.knopka{
+   width: 200px;
+   height: 200px;
+   margin-left: 3%;
+   padding-right: 80px;
+   margin-top: 30px;
+
+}
+.knopka > .fa-power-off{
+    font-size: 150px;
+    cursor: pointer;
+    
+}
+.knopka>.fa-power-off:hover{
+    color: green;
+}
+
+.calc {
+    width: 30%;
+    height: 700px;
+    background-color: black;
+    margin-left: 35%;
+    margin-top: 150px;
+    border-radius: 25px;
+    display: none;
+}
+
+.input {
+    width: 20%;
+    height: 100px;
+    position: absolute;
+    top: 180px;
+    left: 40%;
+    background-color: silver;
+    border-radius: 10px;
+    border: none;
+    font-size: 35px;
+    text-align: right;
+    display: none;
+}
+
+.calc_1 {
+    position: absolute;
+    width: 30%;
+    height: 530px;
+    background-color: orange;
+    left: 35%;
+    top: 320px;
+    border-radius: 25px;
+    z-index: 999;
+    display: none;
+}
+
+.a {
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+}
+
+.a_1 {
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 8%;
+    cursor: pointer;
+    color: red;
+
+}
+
+.a_2 {
+    float: left;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 8%;
+    cursor: pointer;
+
+}
+
+.a_3 {
+    float: left;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 8%;
+    cursor: pointer;
+
+}
+
+.a_4 {
+    float: left;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 8%;
+    color: red;
+}
+
+.b {
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+}
+
+.b_1 {
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    float: left;
+    cursor: pointer;
+    margin-left: 8%;
+}
+
+.b_2 {
+    float: left;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 8%;
+}
+
+.b_3 {
+    float: left;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 8%;
+}
+
+.b_4 {
+    float: left;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 8%;
+    color: red;
+}
+
+.c {
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+}
+
+.c_1 {
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    float: left;
+    cursor: pointer;
+    margin-left: 8%;
+}
+
+.c_2 {
+    float: left;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 8%;
+}
+
+.c_3 {
+    float: left;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 8%;
+}
+
+.c_4 {
+    float: left;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 8%;
+    color: red;
+}
+
+.d {
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+}
+
+.d_1 {
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    float: left;
+    cursor: pointer;
+    margin-left: 8%;
+}
+
+.d_2 {
+    float: left;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 8%;
+}
+
+.d_3 {
+    float: left;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 8%;
+}
+
+.d_4 {
+    float: left;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 8%;
+    color: red;
+}
+
+.e {
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+}
+
+.e_1 {
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 8%;
+    cursor: pointer;
+
+}
+
+.e_2 {
+    float: left;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 8%;
+    cursor: pointer;
+
+}
+
+.e_3 {
+    float: left;
+    width: 38%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 8%;
+    cursor: pointer;
+    color: green;
+
+}
+
+.fa-power-off {
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+
+.fa-delete-left {
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+
+.fa-ban {
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+
+.fa-minus {
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+.fa-1{
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+.fa-2{
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+.fa-3{
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+.fa-4{
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+.fa-5{
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+.fa-6{
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+.fa-7{
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+.fa-8{
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+.fa-9{
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+.fa-xmark{
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+.fa-divide{
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+.fa-plus{
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+.p{
+    position: relative;
+    font-size: 75px;
+    margin-left: 35%;
+    bottom: 40px;
+}
+.fa-0{
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7px;
+}
+.fa-equals{
+    font-size: 55px;
+    margin-left: 40%;
+    margin-top: 1x;
+}

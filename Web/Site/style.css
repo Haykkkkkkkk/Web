@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url(./back.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.ob{
+    width: 100%;
+    height: 2000px;
+}
+.bootstrap{
+    color: #DDAA64;
+    position: absolute;
+    font-size: 40px;
+    top:80px;
+    left: 27%;
+    z-index: 9999;
+}
+.business{
+    color: #F1E2C7;
+    position: absolute;
+    font-size: 100px;
+    top:120px;
+    left: 22%;
+    z-index: 9999;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background-color: #2d1a12d5;
+    top: 300px;
+    text-align: center;
+
+}
+
+
+.fa-bars{
+    display: none;
+    cursor: pointer;
+}
+.hm{
+    width: 100%;
+    height: 50px;
+    background-color: #291810ec;
+    display: none;
+}
+
+.menu ul li {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #BFBBB8;
+    padding: 20px;
+}
+
+.menu>ul>li>a:hover{
+    color: #5c5a59;
+}
+.axjik{
+    position: absolute;
+    width: 55%;
+    height: 700px;
+    top: 450px;
+    left: 35%;
+}
+.fresh{
+    width: 30%;
+    height: 300px;
+    background-color: #F2E2C8;
+    position: absolute;
+    top: 500px;
+    left: 20%;
+    border-radius: 5px;
+}
+.fresh>.t1{
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.hiden{
+    display: none;
+}
+.fresh>.t2{
+    text-align: center;
+    padding-top: 3px;
+    color: black;
+    font-size: 40px;
+}
+.fresh>.t3{
+    text-align: center;
+    padding-top: 3px;
+    color: black;
+    font-size: 17px;
+    padding-left: 40px;
+    padding-right: 35px;
+}
+.button{
+    width: 10%;
+    height: 80px;
+    background-color: #DDAA64;
+    position: absolute;
+    border-radius: 5px;
+    top: 750px;
+    left: 30%;
+}
+.bp{
+    text-align: center;
+    padding-top: 18%;
+    font-weight: 700;
+}
+.button:hover{
+    background-color: #dfb171;
+    cursor: pointer;
+}
+
+.promise{
+    width: 100%;
+    height: 400px;
+    background-color: #cb9b5df3;
+    position: absolute;
+    top: 1200px;
+}
+.text{
+    width: 50%;
+    height: 250px;
+    position: absolute;
+    background-color: #F2E2C8;
+    top: 80px;
+    left: 25%;
+    border-radius: 3px;
+    border: solid #DDAF70 5px;   
+}
+.pm{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;font-weight: 600;
+    
+}
+.to{
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 200;
+    font-size: 45px;
+}
+.txt{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 17px;
+}
+.end{
+    width: 100%;
+    height: 120px;
+    background-color: #291810ec;
+    position: absolute;
+    top: 1900px;
+}
+.copyright{
+    text-align: center;
+    color: #F2E2C8;
+    padding-top: 60px;
+}
+@media(max-width:991px){
+    .bootstrap{
+        display: none;
+    }
+    .business{
+        display: none;
+    }
+    .hm{
+        display: block;
+        transition: 1s;
+    }
+    .hiden{
+        display: block;
+        color: #DDAA64;
+        font-size: 35px;
+        font-weight: 800;
+        padding-top: 5px;
+        margin-left: 100px;
+    }
+    
+    .fa-bars{
+        display: block;
+        position: absolute;
+        padding-top: 10px;
+        right: 2%;
+        color: white;
+        font-size: 30px;
+        transition: 2s;
+    }
+    .axjik{
+        top: 100px;
+        width: 70%;
+        left: 15%;
+        transition: 0.8s;
+    }
+    .fresh{
+        top: 830px;
+        width: 70%;
+        left: 15%;
+    }
+    .button{
+        top: 1050px;
+        left: 43%;
+        width: 15%;
+        height: 70px;
+    }
+    .menu>li{
+        float: none;
+        width: 100%;
+        opacity: 0;
+        position: relative;
+        top: -500px;
+        transition: 0.8s;
+    }
+    
+    .menu {
+        display: none;
+    }
+    .text{
+        width: 60%;
+        left: 22%;
+        height: 270px;
+    }
+  .hm:hover{
+      width: 100%;
+      height: 300px;
+      background-color: #291810ec;
+      z-index: 999999999;
+  }
+    
+    
+.hm:hover~.axjik{
+    top: 350px;
+}
+
+
+    
+    
+
+}
+    
+
